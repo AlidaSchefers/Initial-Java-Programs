@@ -1,0 +1,1 @@
+Repo for smaller, miscellaneous Java programs. Go into src/com to see the main coding files. The different programs are divided into different directories within this directory.
