@@ -14,6 +14,12 @@ public class Employee {
         numberOfEmployees++;
     }
 
+    public static void printNumberOfEmployees() {
+        System.out.println(numberOfEmployees);
+        //calculateWage() //cannot access calculateWage() instance method like this inside this static method b/c calculateWage() method belongs to an employee object.
+        //new Employee().calculateWage() //have to create an employee object and then access the method
+    }
+
     public int calculateWage(int extraHours) {
         return baseSalary + (hourlyRate * extraHours);
     }
